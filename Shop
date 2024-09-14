@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+
+    <style>
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+        body{
+            background-color: rgb(243, 229, 245);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0; 
+        }
+        #enlaces{
+            color: rgb(123, 31, 162);
+            width: 10%;
+            background-color: rgb(225, 190, 231);
+            border: solid 1px;
+            border-color: black;
+            text-align: center;
+            font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif    
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;    
+        }
+        header{
+            color: rgb(123, 31, 162);
+            background-color: rgb(225, 190, 231);
+            font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 20px;
+        }
+        .producto{ 
+            border: 1px solid black;
+            border-radius: 2px;
+            box-shadow: 0 2px 2px black;
+            width: 200px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+        .producto img{
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid black;
+            margin-bottom:  1rem;      
+        }
+        .producto h2{
+            margin: 0 0 1rem;
+            font-size: 2rem;
+            color: red;
+        }
+        .precio{
+            font-size: 20px;
+            margin: 0 0 2rem;
+        }
+        .producto button{
+            background-color: purple;
+            border: none;
+            color: white;
+            text-align: center;
+            padding: 0.5rem 1.5rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        footer button{
+            border: none;
+            background-color: purple;
+            color: white;
+            padding: 0.5rem 2rem;
+            font-size: 0.8rem;
+            cursor: pointer; 
+        }
+        footer{
+            text-align: center;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div>     
+
+        <table>
+ 
+             <tbody>
+                 <tr id="enlaces">
+                     <td id="enlaces"><a href="index.html">Inicio</a></td>
+                     <td id="enlaces"><a href="shop.html">Tienda</a></td>
+                     <td id="enlaces"><a href="contact.html">Contacto</a></td>
+                 </tr>
+             </tbody>
+                              
+         </table>
+ 
+     </div>
+    
+    
+    <header>
+        <h1 id="title">Tienda Online</h1>
+    </header>
+    <main>
+   
+
+
+        <section class="producto">
+            <img src="portatilacer.jpg" alt="pcacer">
+            <h2>OFERTA! Portátil Acer</h2>
+            <p>Portátil Acer Nitro 5 | Tarjeta Gráfica GeForce RTX 3050 4GB | Procesador Intel Core i5 |  Memoria RAM 8GB DDR4 | Almacenamiento 1TB SSD</p>
+            <p class="precio">PRECIO : $ 3'550.000</p>
+            <button>Comprar</button>
+        </section>
+
+        <section class="producto">
+            <img src="portatilasus.jpg" alt="pcasus">
+            <h2>OFERTA! Portátil Asus</h2>
+            <p>Portátil Gamer Asus TUF F15 | Tarjeta Gráfica GeForce RTX 3050 4GB | Procesador Intel Core i5 | Memoria RAM 16GB DDR4 | Almacenamiento 512GB SSD</p>
+            <p class="precio">PRECIO : $ 3'800.000</p>
+            <button>Comprar</button>
+        </section>
+
+        <section class="producto">
+            <img src="portatilmsi.jpg" alt="pcmsi">
+            <h2>OFERTA! Portátil MSI</h2>
+            <p>Portátil Gamer MSI Cyborg | Tarjeta Gráfica GeForce RTX 4060 8GB | Procesador Intel Core i7 | Memoria RAM 32GB DDR5| Almacenamiento 2TB SSD</p>
+            <p class="precio">PRECIO : $ 6'200.000</p>
+            <button>Comprar</button>
+        </section>
+
+        
+
+       
+    </main>
+    <footer id="cargarmas">
+        <button>CARGAR MÁS...</button>
+    </footer>
+</body>
+</html>
