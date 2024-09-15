@@ -20,7 +20,7 @@
         main{
             padding: 1rem;
         }
-    
+      
         #enlaces{
             color: rgb(26, 188, 156);
             width: 10%;
@@ -39,15 +39,14 @@
             justify-content: space-between;
             gap: 2rem;
             margin-bottom: 2rem;
-            width: auto;
+            width: auto;   
         }
         .bloqueinfor{
             flex: auto;
             background-color: rgb(118, 215, 196);
             padding: 1rem;
             border-radius: 10px;
-            width: 50%;
-            
+            width: 50%;    
         }
         h2{
             border-bottom: 2px solid black;
@@ -75,8 +74,7 @@
             background-color: rgb(118, 215, 196);
             padding: 1rem;
             border-radius: 10px;
-            text-align: center;
-           
+            text-align: center;  
         }
         label{
             font-weight: bold;    
@@ -130,8 +128,14 @@
 
             <section id="infcontacto" class="bloqueinfor">
                 <h2>Información de contacto</h2>
+                <div style="display: flex;">
+                <img src="telefono.JPG" alt="imgtel" width="35px">
                 <p>Teléfono: +56 320 123 4567</p>
+                </div>
+                <div style="display: flex;">
+                <img src="correo.JPG" alt="imgcorreo" width="35px">
                 <p>Correo: portatilesoferton@gmail.com</p>
+                </div>
                 <h2>Redes Sociales</h2>
                 <div class="imgsyredes">
                 
