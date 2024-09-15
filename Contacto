@@ -20,7 +20,7 @@
         main{
             padding: 1rem;
         }
-      
+    
         #enlaces{
             color: rgb(26, 188, 156);
             width: 10%;
