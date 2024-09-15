@@ -9,7 +9,7 @@
             background-color: rgb(224, 247, 250);
         }
 
-        
+    
         #name{
             color: rgb(2, 136, 209);
             font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
